@@ -1,3 +1,3 @@
-package com.fridayhouse.myschools
+package com.fridayhouse.myschools.models
 
 class SchoolsResponse : ArrayList<SchoolsResponseItem>()

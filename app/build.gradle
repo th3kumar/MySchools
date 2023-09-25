@@ -54,8 +54,8 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-runtime-ktx:2.6.2"
 
     // Navigation Component
-    implementation "androidx.navigation:navigation-fragment-ktx:2.7.2"
-    implementation "androidx.navigation:navigation-ui-ktx:2.7.2"
+    implementation "androidx.navigation:navigation-fragment-ktx:2.7.3"
+    implementation "androidx.navigation:navigation-ui-ktx:2.7.3"
 
     // Coroutines
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3'
@@ -68,5 +68,11 @@ dependencies {
     //retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
-    implementation 'com.squareup.okhttp3:logging-interceptor:4.9.1'
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.11'
+
+
+   //room database
+    implementation 'androidx.room:room-runtime:2.5.2'
+    annotationProcessor 'androidx.room:room-compiler:2.5.2'
+    implementation 'androidx.room:room-ktx:2.5.2'
 }

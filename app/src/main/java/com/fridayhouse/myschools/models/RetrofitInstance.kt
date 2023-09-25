@@ -1,4 +1,4 @@
-package com.fridayhouse.myschools
+package com.fridayhouse.myschools.models
 
 import com.fridayhouse.myschools.api.SchoolsAPI
 import com.fridayhouse.myschools.util.Constants.Companion.BASE_URL

@@ -1,6 +1,6 @@
 package com.fridayhouse.myschools.api
 
-import com.fridayhouse.myschools.SchoolsResponse
+import com.fridayhouse.myschools.models.SchoolsResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
